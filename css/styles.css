@@ -17,6 +17,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .top-logo-end {
@@ -25,7 +26,7 @@ body {
 }
 
 .header {
-    border-bottom: 1px, solid, #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .nav {
@@ -44,7 +45,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px, 0;
+    padding: 24px 0;
 }
 
 .nav-list-item:hover {
@@ -59,7 +60,7 @@ body {
     font-style: normal;
 }
 
-.adres-list {
+.address-list {
     display: flex;
     gap: 40px;
 }
@@ -86,7 +87,7 @@ body {
 
 .section-one {
     background: #2E2F42;
-    padding: 188px, 0;
+    padding: 188px 0;
 }
 
 .main-header {
@@ -126,10 +127,10 @@ body {
 
 .section-two {
     background: #FFF;
-    padding: 120px, 0;
+    padding: 120px 0;
 }
 
-.section-two-header {
+.visually-hidden {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
@@ -166,7 +167,7 @@ body {
 
 .section-three {
     background: #F4F4FD;
-    padding: 120px, 0;
+    padding: 120px 0;
 }
 
 .section-three-list-item {
@@ -191,7 +192,7 @@ body {
 }
 
 .worker-info {
-    padding: 32px, 0;
+    padding: 32px 0;
 }
 
 .section-three-list-header {
@@ -199,13 +200,14 @@ body {
     margin-bottom: 8px;
 }
 
-.section-three-descr {
+.section-three-parag {
     text-align: center;
 }
 
 .section-four {
     background: #FFF;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .sect-four-list-header {
@@ -217,7 +219,7 @@ body {
     margin-bottom: 8px;
 }
 
-.section-four-list {
+.sect-four-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -229,7 +231,7 @@ body {
 }
 
 .app-info {
-    padding: 32px, 16px;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
@@ -268,8 +270,8 @@ body {
 .container {
     width: 1158px;
     display: flex;
-    margin: 0, auto;
-    padding: 0, 15px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .img {
