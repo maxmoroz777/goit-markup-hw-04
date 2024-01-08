@@ -146,7 +146,7 @@ body {
 }
 
 .section-two-list-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100%-72px)/4);
 }
 
 .list-header {
@@ -172,7 +172,7 @@ body {
 
 .section-three-list-item {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -227,7 +227,7 @@ body {
 }
 
 .sect-four-list-item {
-    width: calc((100% - 48px) / 3);
+    width: calc((100%-48px)/3);
 }
 
 .app-info {
@@ -243,7 +243,7 @@ body {
 
 .footer {
     background-color: #2e2f42;
-    padding: 100px, 0;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -256,10 +256,12 @@ body {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+
 }
 
 .footer-logo-end {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-parag {
