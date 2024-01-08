@@ -20,24 +20,24 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <nav>
+            <nav class="nav">
                 <a class="logo" href="./index.html">Web<span class="top-logo-end">Studio</span></a>
-                <ul>
+                <ul class="nav-list">
                     <li>
-                        <a class="navigation" href="./index.html">Studio</a>
+                        <a class="nav-list-item" href="./index.html">Studio</a>
                     </li>
                     <li>
-                        <a class="navigation" href="">Portfolio</a>
+                        <a class="nav-list-item" href="">Portfolio</a>
                     </li>
                     <li>
-                        <a class="navigation" href="">Contacts</a>
+                        <a class="nav-list-item" href="">Contacts</a>
                     </li>
                 </ul>
             </nav>
             <address class="address">
-                <ul>
+                <ul class="address-list">
                     <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a class="contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
@@ -45,116 +45,127 @@
         </div>
     </header>
     <main>
-        <div class="section">
-            <section class="section-one">
-                <div class="container">
-                    <h1 class="main-header">Effective Solutions
-                        for Your Business</h1>
-                    <button class="button" type="button">Order Service</button>
-                </div>
-            </section>
-            <section class="section-two">
-                <div class="container">
-                    <h2>Section #2 header</h2>
-                    <ul>
-                        <li>
-                            <h3 class="list-header">Strategy</h3>
-                            <p class="description">Our goal is to identify the business
-                                problem to walk away with the perfect and creative solution.</p>
-                        </li>
-                        <li>
-                            <h3 class="list-header">Punctuality</h3>
-                            <p class="description">Bring the key message to the brand's audience for the best price
-                                within
-                                the
-                                shortest possible
-                                time.
-                            </p>
-                        </li>
-                        <li>
-                            <h3 class="list-header">Diligence</h3>
-                            <p class="description">Research and confirm brands that present the strongest digital
-                                growth
-                                opportunities and minimize
-                                risk.
-                            </p>
-                        </li>
-                        <li>
-                            <h3 class="list-header">Technologies</h3>
-                            <p class="description">Design practice focused on digital experiences. We bring forth a
-                                deep
-                                passion
-                                for
-                                problem-solving.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="section-three">
-                <div class="container">
-                    <h2 class="header-sect">Our Team</h2>
-                    <ul>
-                        <li class="sect-list-three">
-                            <img src="./images/img1.jpg" width="264" alt="Mark Guerrero" />
-                            <h3 class="list-header">Mark Guerrero</h3>
-                            <p class="description">Product Designer</p>
-                        </li>
-                        <li class="sect-list-three">
-                            <img src="./images/img2.jpg" width="264" alt="Tom Ford" />
-                            <h3 class="list-header">Tom Ford</h3>
-                            <p class="description">Frontend Developer</p>
-                        </li>
-                        <li class="sect-list-three">
-                            <img src="./images/img3.jpg" width="264" alt="Camila Garcia" />
-                            <h3 class="list-header">Camila Garcia</h3>
-                            <p class="description">Marketing</p>
-                        </li>
-                        <li class="sect-list-three">
-                            <img src="./images/img4.jpg" width="264" alt="Daniel Wilson" />
-                            <h3 class="list-header">Daniel Wilson</h3>
-                            <p class="description">UI Designer</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="section-four">
-                <div class="container">
-                    <h2 class="header-sect">Our Portfolio</h2>
-                    <ul>
-                        <li>
-                            <img src="./images/img5.jpg" width="360" alt="Banking app" />
+        <section class="section-one">
+            <div class="container">
+                <h1 class="main-header">Effective Solutions
+                    for Your Business</h1>
+                <button class="button" type="button">Order Service</button>
+            </div>
+        </section>
+        <section class="section-two">
+            <div class="container">
+                <h2 class="section-two-header">Section #2 header</h2>
+                <ul class="section-two-list">
+                    <li class="section-two-list-item">
+                        <h3 class="list-header">Strategy</h3>
+                        <p class="description">Our goal is to identify the business
+                            problem to walk away with the perfect and creative solution.</p>
+                    </li>
+                    <li class="section-two-list-item">
+                        <h3 class="list-header">Punctuality</h3>
+                        <p class="description">Bring the key message to the brand's audience for the best price
+                            within the shortest possible time.
+                        </p>
+                    </li>
+                    <li class="section-two-list-item">
+                        <h3 class="list-header">Diligence</h3>
+                        <p class="description">Research and confirm brands that present the strongest digital
+                            growth opportunities and minimize risk.
+                        </p>
+                    </li>
+                    <li class="section-two-list-item">
+                        <h3 class="list-header">Technologies</h3>
+                        <p class="description">Design practice focused on digital experiences. We bring forth a
+                            deep passion for problem-solving.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-three">
+            <div class="container">
+                <h2 class="header-sect">Our Team</h2>
+                <ul class="section-three-list">
+                    <li class="section-three-list-item">
+                        <img src="./images/img1.jpg" class="img" width="264" alt="Mark Guerrero" />
+                        <div class="worker-info">
+                            <h3 class="section-three-list-header">Mark Guerrero</h3>
+                            <p class="section-three-parag">Product Designer</p>
+                        </div>
+                    </li>
+                    <li class="section-three-list-item">
+                        <img src="./images/img2.jpg" class="img" width="264" alt="Tom Ford" />
+                        <div class="worker-info">
+                            <h3 class="section-three-list-header">Tom Ford</h3>
+                            <p class="section-three-parag">Frontend Developer</p>
+                        </div>
+                    </li>
+                    <li class="section-three-list-item">
+                        <img src="./images/img3.jpg" class="img" width="264" alt="Camila Garcia" />
+                        <div class="worker-info">
+                            <h3 class="section-three-list-header">Camila Garcia</h3>
+                            <p clss="section-three-parag">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="section-three-list-item">
+                        <img src="./images/img4.jpg" class="img" width="264" alt="Daniel Wilson" />
+                        <div class="worker-info">
+                            <h3 class="section-three-list-header">Daniel Wilson</h3>
+                            <p class="section-three-parag">UI Designer</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-four">
+            <div class="container">
+                <h2 class="header-sect">Our Portfolio</h2>
+                <ul class="sect-four-list">
+                    <li class="sect-four-list-item">
+                        <img src="./images/img5.jpg" class="img" width="360" alt="Banking app" />
+                        <div class="app-info">
                             <h3 class="sect-four-list-header">Banking App</h3>
                             <p class="sekt-four-parag">App</p>
-                        </li>
-                        <li>
-                            <img src="./images/img6.jpg" width="360" alt="Cashless paymant" />
+                        </div>
+                    </li>
+                    <li class="sect-four-list-item">
+                        <img src="./images/img6.jpg" class="img" width="360" alt="Cashless paymant" />
+                        <div>
                             <h3 class="sect-four-list-header">Cashless Payment</h3>
                             <p class="sekt-four-parag">Marketing</p>
-                        </li>
-                        <li>
-                            <img src="./images/img7.jpg" width="360" alt="Meditation App" />
+                        </div>
+                    </li>
+                    <li class="sect-four-list-item">
+                        <img src="./images/img7.jpg" class="img" width="360" alt="Meditation App" />
+                        <div>
                             <h3 class="sect-four-list-header">Meditation App</h3>
                             <p class="sekt-four-parag">App</p>
-                        </li>
-                        <li>
-                            <img src="./images/img8.jpg" width="360" alt="Taxi Service" />
+                        </div>
+                    </li>
+                    <li class="sect-four-list-item">
+                        <img src="./images/img8.jpg" class="img" width="360" alt="Taxi Service" />
+                        <div>
                             <h3 class="sect-four-list-header">Taxi Service</h3>
                             <p class="sekt-four-parag">Marketing</p>
-                        </li>
-                        <li>
-                            <img src="./images/img9.jpg" width="360" alt="Screen Illustrations" />
+                        </div>
+                    </li>
+                    <li class="sect-four-list-item">
+                        <img src="./images/img9.jpg" class="img" width="360" alt="Screen Illustrations" />
+                        <div>
                             <h3 class="sect-four-list-header">Screen Illustrations</h3>
                             <p class="sekt-four-parag">Design</p>
-                        </li>
-                        <li>
-                            <img src="./images/img10.jpg" width="360" alt="Online Courses" />
+                        </div>
+                    </li>
+                    <li class="sect-four-list-item">
+                        <img src="./images/img10.jpg" class="img" width="360" alt="Online Courses" />
+                        <div>
                             <h3 class="sect-four-list-header">Online Courses</h3>
                             <p class="sekt-four-parag">Marketing</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
         </div>
     </main>
     <footer class="footer">
