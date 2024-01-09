@@ -130,7 +130,9 @@ body {
     padding: 120px 0;
 }
 
-.visually-hidden {}
+.visually-hidden {
+    visibility: hidden;
+}
 
 .section-two-list {
     display: flex;
@@ -138,7 +140,7 @@ body {
 }
 
 .section-two-list-item {
-    width: calc((100%-72px)/4);
+    flex-basis: calc((100%-72px)/4);
 }
 
 .list-header {
@@ -162,12 +164,6 @@ body {
     padding: 120px 0;
 }
 
-.section-three-list-item {
-    background-color: #FFFFFF;
-    width: calc((100%-72px)/4);
-    border-radius: 0px 0px 4px 4px;
-}
-
 .header-sect {
     font-size: 36px;
     line-height: 1.11;
@@ -181,6 +177,12 @@ body {
 .section-three-list {
     display: flex;
     gap: 24px;
+}
+
+.section-three-list-item {
+    background-color: #FFFFFF;
+    flex-basis: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .worker-info {
@@ -219,7 +221,7 @@ body {
 }
 
 .sect-four-list-item {
-    width: calc((100%-48px)/3);
+    flex-basis: calc((100%-48px)/3);
 }
 
 .app-info {
