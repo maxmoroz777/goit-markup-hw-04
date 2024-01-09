@@ -130,15 +130,7 @@ body {
     padding: 120px 0;
 }
 
-.visually-hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-}
+.visually-hidden {}
 
 .section-two-list {
     display: flex;
@@ -261,7 +253,6 @@ body {
 
 .footer-logo-end {
     color: #f4f4fd;
-    display: inline-block;
 }
 
 .footer-parag {
