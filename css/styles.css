@@ -62,6 +62,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1158px;
 
 }
 
@@ -73,7 +74,7 @@ img {
 
 .nav-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .nav-list-link {
@@ -101,7 +102,7 @@ img {
 
 .address-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 
 }
 
@@ -127,7 +128,7 @@ img {
 
 .section-one {
     background: #2E2F42;
-    padding: 188px;
+    padding: 188px 0;
     height: 600px;
 
 }
@@ -159,7 +160,7 @@ img {
     color: #ffffff;
     cursor: pointer;
     display: block;
-    max-width: 169px;
+    min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -282,7 +283,7 @@ img {
     row-gap: 48px;
 }
 
-.sect-four-list-item {
+.sect-four-list-item:first-child {
     width: calc((100% - 48px) / 3);
 }
 
@@ -300,6 +301,10 @@ img {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+}
+
+.container-footer {
+    flex-flow: column;
 }
 
 .footer-logo {
