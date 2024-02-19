@@ -318,6 +318,7 @@ img {
 
 .container-footer {
     flex-flow: column;
+    display: inline-block;
 }
 
 .footer-logo {
@@ -329,6 +330,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
+
 
 }
 
