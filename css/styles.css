@@ -53,7 +53,9 @@ img {
     color: #2e2f42;
 }
 
-.container {}
+.container {
+    width: 1158px;
+}
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -201,13 +203,10 @@ img {
     overflow: hidden;
 }
 
-.page-header-container,
-.container-sec-two,
-.container-sec-three,
-.container-sec-four,
-.container-footer {
-    width: 1128px;
+.container {
+    width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 
 }
 
@@ -337,7 +336,6 @@ img {
     padding: 100px 0;
 }
 
-.container-footer {}
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
