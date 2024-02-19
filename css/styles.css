@@ -204,7 +204,8 @@ img {
 .page-header-container,
 .container-sec-two,
 .container-sec-three,
-.container-sec-four {
+.container-sec-four,
+.container-footer {
     width: 1128px;
     margin: 0 auto;
 
