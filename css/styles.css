@@ -1,12 +1,10 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    font-weight: "Regular";
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
     background-color: #FFFFFF;
-    font-family: "Roboto",
 }
 
 h1,
@@ -26,6 +24,7 @@ ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+
 }
 
 a {
@@ -36,6 +35,7 @@ a {
 
 img {
     display: block;
+
 }
 
 .logo {
@@ -51,19 +51,13 @@ img {
 
 .top-logo-end {
     color: #2e2f42;
-    margin-right: 76px;
 }
 
-.container {
-    width: 1158px;
-    display: flex;
-    margin: 0 auto;
-    padding: 0 15px;
-
-}
+.container {}
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+
 
 }
 
@@ -71,6 +65,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 
 
 }
@@ -133,6 +128,7 @@ img {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+
 }
 
 .section-one {
@@ -189,6 +185,7 @@ img {
 .section-two {
     background: #FFF;
     padding: 120px 0;
+
 }
 
 .visually-hidden {
@@ -204,9 +201,15 @@ img {
     overflow: hidden;
 }
 
-.container-sec-two {
-    flex-flow: column;
+.page-header-container,
+.container-sec-two,
+.container-sec-three,
+.container-sec-four {
+    width: 1128px;
+    margin: 0 auto;
+
 }
+
 
 .section-two-list {
     display: flex;
@@ -237,6 +240,7 @@ img {
     background: #F4F4FD;
     padding: 120px 0;
 
+
 }
 
 .header-sect {
@@ -253,6 +257,7 @@ img {
 .section-three-list {
     display: flex;
     gap: 24px;
+
 }
 
 .section-three-list-item {
@@ -266,6 +271,12 @@ img {
 }
 
 .section-three-list-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
     text-align: center;
     margin-bottom: 8px;
 }
@@ -278,7 +289,6 @@ img {
     background: #FFF;
     padding-top: 120px;
     padding-bottom: 120px;
-    width: 1128px;
     margin: auto;
 }
 
@@ -300,6 +310,8 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    margin: auto;
+
 
 
 }
@@ -324,10 +336,7 @@ img {
     padding: 100px 0;
 }
 
-.container-footer {
-    flex-flow: column;
-    display: inline-block;
-}
+.container-footer {}
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
