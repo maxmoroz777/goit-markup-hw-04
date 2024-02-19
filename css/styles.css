@@ -54,6 +54,14 @@ img {
     margin-right: 76px;
 }
 
+.container {
+    width: 1158px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 
@@ -342,12 +350,4 @@ img {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
-}
-
-.container {
-    width: 1158px;
-    display: flex;
-    margin: 0 auto;
-    padding: 0 15px;
-
 }
