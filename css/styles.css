@@ -106,6 +106,7 @@ img {
     padding-bottom: 0;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
 }
 
 .nav-list-link-1::after {
@@ -118,7 +119,7 @@ img {
     border-radius: 2px;
     left: 0;
     bottom: -1px;
-
+    position: absolute;
 }
 
 .address {
@@ -163,7 +164,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
-
+    background-position: center;
 }
 
 .page-sec-one {
@@ -251,6 +252,7 @@ img {
     border-radius: 4px;
     height: 112px;
     margin-bottom: 8px;
+    align-items: center;
 }
 
 .dscr-icon {
@@ -396,8 +398,13 @@ img {
 
 .sect-four-list-item {
     width: calc((100% - 48px) / 3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.sect-four-list-item:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
+}
+
 
 .overlay-parent-sec-four {
     position: relative;
@@ -407,7 +414,7 @@ img {
 .sect-four-list-item:hover .overlay {
     transform: translateY(0%);
     transition: transform 500ms;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
+
 }
 
 .overlay {
