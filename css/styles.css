@@ -109,7 +109,7 @@ img {
     color: #404bbf;
 }
 
-.nav-list-link-1::after {
+.nav-list-link-one::after {
     display: block;
     width: 100%;
     height: 4px;
@@ -417,7 +417,7 @@ img {
 }
 
 .overlay-parent-sec-four:hover,
-.overlay-parent-sec-four:focus {
+.overlay-parent-sec-four:focus .overlay-text {
     transform: translateY(0%);
 }
 
