@@ -153,6 +153,7 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 
+
 }
 
 .section-one {
@@ -165,6 +166,7 @@ img {
     background-size: cover;
     max-width: 1440px;
     background-position: center;
+    margin: 0 auto;
 }
 
 .page-sec-one {
@@ -182,7 +184,6 @@ img {
     letter-spacing: 1.12px;
     max-width: 496px;
     align-self: center;
-
 }
 
 .button {
@@ -338,6 +339,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 8px;
 }
 
 .socials-networks-list {
@@ -462,7 +464,7 @@ img {
 .container-footer {
     margin-right: 120px;
     width: 264px;
-    height: 112px;
+
 }
 
 .footer-content {
@@ -496,6 +498,7 @@ img {
 
 .socials-networks-footer {
     gap: 16px;
+    margin-top: 0;
 }
 
 .socials-networks-link-footer:hover,
